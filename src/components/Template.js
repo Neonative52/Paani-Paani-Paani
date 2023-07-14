@@ -8,7 +8,7 @@ const Template = ({justifyContent,setJustifyContent,alignItems,setAlignItems}) =
             {text}
           </text>
           <form className='form'>
-            <label htmlFor='justify'>justfiy-content :</label>
+            <label htmlFor='justify'>justify-content :</label>
             <input id="justify" className='answer' placeholder="Enter value here" autoFocus value={justifyContent} onChange={(e)=>setJustifyContent(e.target.value)}/>
             <label htmlFor='justify'>align-items :</label>
             <input className='answer' placeholder="Enter value here" value={alignItems} onChange={(e)=>setAlignItems(e.target.value)}/>
